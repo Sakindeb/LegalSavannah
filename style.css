@@ -1,0 +1,167 @@
+/*Logo styles*/
+.logo-image {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/*Aligning logo*/
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* Nude Brown */
+    color: #8d7b68;
+    /* Dark Brown */
+}
+
+/* Header Styles */
+header {
+    
+   
+    color: #f1dec9;
+    /* Nude Brown */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #a4907c;
+    /* Light Brown */
+    text-decoration: none;
+}
+
+
+/* Home Section Styles */
+#home {
+    
+    padding: 40px;
+    /* Nude Brown */
+    height: 400px;
+    text-align: center;
+    padding-left: 50%;
+    transform: translateX(-50%);
+    color: #130a02;
+    
+    
+
+}
+
+
+/* About Section Styles */
+#about {
+    background-color: #ffffff;
+    /* Dark Brown */
+    padding: 40px;
+    /* Nude Brown */
+}
+
+/* Services Section Styles */
+#services {
+    background-color: #ffffff;
+    /* Nude Brown */
+    padding: 40px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #ffffff;
+    /* Dark Brown */
+    padding: 40px;
+    /* Nude Brown */
+    background-color: #8d7b68;
+    /* Dark Brown */
+    color:#f1dec9
+}
+
+/* Footer Styles */
+footer {
+    background-color: #8d7b68;
+    /* Dark Brown */
+    padding: 20px;
+    color: #f1dec9;
+    /* Nude Brown */
+    text-align: center;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+
+    color: #f1dec9;
+    /* Nude Brown */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c8b6a6;
+    /* Medium Brown */
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1dec9;
+    /* Nude Brown */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    color: #8d7b68;
+    /* Dark Brown */
+}
+
+.dropdown-content li:hover {
+    background-color: #c8b6a6;
+    /* Medium Brown */
+    color: #f1dec9;
+    /* Nude Brown */
+}
